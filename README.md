@@ -3,42 +3,6 @@
 A full-stack platform designed to empower citizens to report complaints, track their status, and engage with government or administrative bodies transparently. The system includes intelligent features like NLP-based categorization, analytics dashboards, and notification services to ensure efficient communication between citizens and administrators.
 
 ---
-
-## 📁 Project Structure
-
-Citizen-Engagement-System/
-├── Backend/
-│ ├── Frontend/ # React + Vite + TypeScript Frontend
-│ │ ├── src/
-│ │ │ ├── App.tsx
-│ │ │ ├── index.tsx
-│ │ │ ├── types.ts
-│ │ │ ├── index.css
-│ │ │ ├── components/
-│ │ │ │ ├── ComplaintForm.tsx
-│ │ │ │ ├── ComplaintTracker.tsx
-│ │ │ │ ├── AdminInterface.tsx
-│ │ │ │ ├── AnalyticsDashboard.tsx
-│ │ ├── index.html
-│ │ ├── package.json
-│ │ ├── tsconfig.json
-│ │ ├── vite.config.ts
-│ │ ├── tailwind.config.js
-│ │ ├── postcss.config.js
-│ │ ├── lighthouse.config.js
-│
-│ ├── src/ # Node.js + TypeScript Backend
-│ │ ├── index.ts
-│ │ ├── types.ts
-│ │ ├── nlpRouter.ts
-│ │ ├── notificationService.ts
-│ │ ├── routes/
-│ │ │ ├── complaints.ts
-│ ├── package.json
-│ ├── tsconfig.json
-│ ├── .env
-
-
 ---
 
 ## 🚀 Key Features
